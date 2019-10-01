@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="User">
+      <UniqueIdentifier>{34a6ec62-3a05-4c5d-b602-91fe029c239e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Startup">
+      <UniqueIdentifier>{8e59ca9e-a4f1-4140-bd6d-decfddd8101e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StdPeriph_Driver">
+      <UniqueIdentifier>{2c3afc7c-bc99-42cd-a4fb-ee357b676219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMSIS">
+      <UniqueIdentifier>{698b9d08-ae25-4b1d-a911-f9ce8f754af3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="APP">
+      <UniqueIdentifier>{68f109d1-0c2c-412a-bc97-070cfaa8f556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public">
+      <UniqueIdentifier>{22c07628-8dd3-494a-b429-4ad40d0d46b7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Code\Public\system.c">
+      <Filter>Public</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Public\SysTick.c">
+      <Filter>Public</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\APP\Motor.c">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\APP\Sensor_inf.c">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\APP\SteeringGear.c">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\CMSIS\core_cm3.c">
+      <Filter>CMSIS</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\CMSIS\system_stm32f10x.c">
+      <Filter>CMSIS</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c">
+      <Filter>StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c">
+      <Filter>StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c">
+      <Filter>StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c">
+      <Filter>StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_cec.c">
+      <Filter>StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c">
+      <Filter>StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.c">
+      <Filter>StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c">
+      <Filter>StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c">
+      <Filter>StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c">
+      <Filter>StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c">
+      <Filter>StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c">
+      <Filter>StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c">
+      <Filter>StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c">
+      <Filter>StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c">
+      <Filter>StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c">
+      <Filter>StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c">
+      <Filter>StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c">
+      <Filter>StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c">
+      <Filter>StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c">
+      <Filter>StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c">
+      <Filter>StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c">
+      <Filter>StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c">
+      <Filter>StdPeriph_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\User\main.c">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\User\stm32f10x_it.c">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\APP\TSL1401.c">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\APP\adc.c">
+      <Filter>APP</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\APP\usart.c">
+      <Filter>APP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Code\Public\system.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Public\SysTick.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\APP\Motor.h">
+      <Filter>APP</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\APP\Sensor_inf.h">
+      <Filter>APP</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\APP\SteeringGear.h">
+      <Filter>APP</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Libraries\CMSIS\core_cm3.h">
+      <Filter>CMSIS</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Libraries\CMSIS\system_stm32f10x.h">
+      <Filter>CMSIS</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\User\stm32f10x.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\User\stm32f10x_conf.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\User\stm32f10x_it.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\APP\adc.h">
+      <Filter>APP</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\APP\TSL1401.h">
+      <Filter>APP</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\APP\usart.h">
+      <Filter>APP</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Code\Libraries\CMSIS\startup_stm32f10x_hd.s">
+      <Filter>Startup</Filter>
+    </None>
+  </ItemGroup>
+</Project>
