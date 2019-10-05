@@ -89,6 +89,8 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)Code\User;$(ProjectDir)Code\Public;$(ProjectDir)Code\Libraries\STM32F10x_StdPeriph_Driver\inc;$(ProjectDir)Code\Libraries\CMSIS;$(ProjectDir)Code\APP;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;__CC_ARM;USE_STDPERIPH_DRIVER;STM32F10X_HD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -127,7 +129,6 @@
   <ItemGroup>
     <ClCompile Include="Code\APP\adc.c" />
     <ClCompile Include="Code\APP\Motor.c" />
-    <ClCompile Include="Code\APP\Sensor_inf.c" />
     <ClCompile Include="Code\APP\SteeringGear.c" />
     <ClCompile Include="Code\APP\TSL1401.c" />
     <ClCompile Include="Code\APP\usart.c" />
@@ -164,7 +165,6 @@
   <ItemGroup>
     <ClInclude Include="Code\APP\adc.h" />
     <ClInclude Include="Code\APP\Motor.h" />
-    <ClInclude Include="Code\APP\Sensor_inf.h" />
     <ClInclude Include="Code\APP\SteeringGear.h" />
     <ClInclude Include="Code\APP\TSL1401.h" />
     <ClInclude Include="Code\APP\usart.h" />

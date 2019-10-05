@@ -30,9 +30,6 @@
     <ClCompile Include="Code\APP\Motor.c">
       <Filter>APP</Filter>
     </ClCompile>
-    <ClCompile Include="Code\APP\Sensor_inf.c">
-      <Filter>APP</Filter>
-    </ClCompile>
     <ClCompile Include="Code\APP\SteeringGear.c">
       <Filter>APP</Filter>
     </ClCompile>
@@ -135,9 +132,6 @@
       <Filter>Public</Filter>
     </ClInclude>
     <ClInclude Include="Code\APP\Motor.h">
-      <Filter>APP</Filter>
-    </ClInclude>
-    <ClInclude Include="Code\APP\Sensor_inf.h">
       <Filter>APP</Filter>
     </ClInclude>
     <ClInclude Include="Code\APP\SteeringGear.h">
