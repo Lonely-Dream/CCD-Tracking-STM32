@@ -4,9 +4,7 @@
 /*
 Description:
 Pins:
-PB0 PB1 PC4 PC5 //control direction
-PA8 PA9 PA10 PA11 //control size by timer8 ch1-ch4
-
+PA2  ¶æ»úÐÅºÅÏß TIM2 ch3
 
 */
 

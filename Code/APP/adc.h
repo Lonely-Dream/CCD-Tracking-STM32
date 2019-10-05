@@ -8,10 +8,9 @@ Pins:
 */
 
 #include <system.h>
-#include "SysTick.h"
 
-u16 Get_ADC_Value(u8 ch);
-void Adc_Init(void);
+void ADCx_Init(ADC_TypeDef* ADCx);
+u16 Get_ADCx_Value(ADC_TypeDef* ADCx, u8 ch);
 
 #endif // !_ADC_H
 
