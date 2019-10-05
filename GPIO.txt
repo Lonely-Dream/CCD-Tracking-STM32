@@ -1,0 +1,51 @@
+PA0 TSL1401 SI
+PA1
+PA2  ¶æ»úÐÅºÅÏß TIM2 ch3
+PA3
+PA4
+PA5
+PA6
+PA7
+PA8
+PA9  Bluetoothe USART1 TX(for stm32) 
+PA10 Bluetoothe USART1 RX(for stm32)
+
+
+PB0
+PB1
+PB2
+PB3
+PB4  M L ain1 1
+PB5  M L ain2 0
+PB6  M L a pwm
+PB7  M R bin1 1
+PB8  M R bin2 0
+PB9  M R b pwm
+PB10
+PB11
+PB12
+PB13
+
+
+PC0 TSL1401 AO ADC1 ch10
+PC1
+PC2 TSL1401 CLK
+PC3
+PC4
+PC5
+PC6
+PC7
+PC8
+PC9
+
+
+PD0
+PD1
+PD2
+PD3
+PD4
+PD5
+PD6
+PD7
+PD8
+PD9
